@@ -5,6 +5,8 @@
 // Execute `rustlings hint lifetimes3` or use the `hint` watch subcommand for a
 // hint.
 // THIS IS A TEST COMMENT
+// THIS IS ANOTHER TEST COMMENT
+
 
 struct Book<'a> {
     author: &'a str,
