@@ -8,6 +8,7 @@
 // hint.
 
 // I AM NOT DONE
+// THIS IS ANOTHER TEST COMMENT
 
 use std::sync::{Arc, Mutex};
 use std::thread;
