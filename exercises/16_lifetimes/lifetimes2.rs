@@ -1,3 +1,4 @@
+// Test comment added at 2025-04-01 21:48:34
 // lifetimes2.rs
 //
 // So if the compiler is just validating the references passed to the annotated
