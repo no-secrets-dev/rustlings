@@ -27,3 +27,5 @@ fn main() {
 // format test 1
 // format test 2
 // format test 3
+// feature commit 1
+// feature commit 3
