@@ -1,1 +1,1 @@
-// test file for filter_globs\nfn main() { println\!("hello"); }\n
+// updated test file\nfn main() { println\!("filter_globs works\!"); }\n
