@@ -1,1 +1,0 @@
-use std::collections::HashMap;\nfn merge(a: &HashMap<&str,i32>, b: &HashMap<&str,i32>) -> HashMap<String,i32> { let mut m = HashMap::new(); for (k,v) in a.iter().chain(b.iter()) { *m.entry(k.to_string()).or_insert(0) += v; } m }

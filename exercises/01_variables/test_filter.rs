@@ -1,0 +1,1 @@
+// test file for filter_globs\nfn main() { println\!("hello"); }\n

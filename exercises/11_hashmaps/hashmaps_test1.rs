@@ -1,1 +1,0 @@
-// Test hashmap iteration\nuse std::collections::HashMap;\nfn main() {\n    let mut map = HashMap::new();\n    map.insert("key", 42);\n    for (k, v) in &map {\n        println\!("{}: {}", k, v);\n    }\n}
