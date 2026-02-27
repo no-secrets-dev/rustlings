@@ -1,1 +1,0 @@
-use std::sync::{Arc, RwLock}; use std::thread;\nfn main() { let data = Arc::new(RwLock::new(vec\![1,2,3])); let d = Arc::clone(&data); let h = thread::spawn(move || { let r = d.read().unwrap(); println\!("{:?}", *r); }); h.join().unwrap(); }

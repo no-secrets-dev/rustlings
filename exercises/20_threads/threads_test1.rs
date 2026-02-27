@@ -1,1 +1,0 @@
-// Test thread synchronization\nuse std::thread;\nfn main() {\n    let handles: Vec<_> = (0..3).map(|i| {\n        thread::spawn(move || println\!("thread {}", i))\n    }).collect();\n    for h in handles { h.join().unwrap(); }\n}
