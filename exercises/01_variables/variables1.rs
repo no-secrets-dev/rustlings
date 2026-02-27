@@ -25,3 +25,4 @@ fn main() {
 // another timestamp test Fri Feb 27 06:12:51 AM UTC 2026
 // suppress test Fri Feb 27 06:15:23 AM UTC 2026
 // format test 1
+// format test 2
