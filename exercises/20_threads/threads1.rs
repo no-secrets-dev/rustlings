@@ -41,3 +41,4 @@ fn main() {
         println!("thread {} took {}ms", i, result);
     }
 }
+// suppress test
