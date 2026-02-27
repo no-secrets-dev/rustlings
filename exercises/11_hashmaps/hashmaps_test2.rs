@@ -1,0 +1,1 @@
+// Hashmap entry API\nuse std::collections::HashMap;\nfn count_words(words: &[&str]) -> HashMap<&str, usize> {\n    let mut map = HashMap::new();\n    for w in words { *map.entry(w).or_insert(0) += 1; }\n    map\n}
